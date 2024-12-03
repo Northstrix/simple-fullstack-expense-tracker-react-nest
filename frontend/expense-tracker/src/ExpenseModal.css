@@ -1,0 +1,62 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: linear-gradient(to left, #25c481, #25b7c4);
+    padding: 20px;
+    color: white;
+    border-radius: 12px; /* Rounded corners */
+    border: 3px solid white; /* Solid white border */
+    width: 400px; /* Adjust width as needed */
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+    font-size: 20px; /* Size of the close button */
+}
+
+.modal-title {
+    text-align: center; /* Center the title */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+/* Ensure all inputs and select have the same width */
+.form-group input,
+.form-group select {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Center the submit button */
+.submit-button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 15px;
+    background-color: #25c481; /* Solid background color for the button */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    border: 3px solid white; /* Solid white border */
+    font-weight: 500;
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
